@@ -26,7 +26,7 @@
 **Ans:** It means the column is treated as plain text (string) rather than a date object. You fix it using:
 ```python
 df['Date of Purchase'] = pd.to_datetime(df['Date of Purchase'])
-
+```
 ### Feature Engineering
 
 #### Q6. What is Feature Engineering? Why can't you directly feed raw ticket text like "VPN is not working" into an XGBoost model?
